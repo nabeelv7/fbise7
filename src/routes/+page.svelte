@@ -35,7 +35,7 @@
     >
         <div class="flex md:flex-row flex-col gap-5">
             <div class="flex flex-col">
-                <h1 contenteditable="false">&nbsp;{face}</h1>
+                <h1 contenteditable="false">{face}</h1>
                 <h1 contenteditable="false">/ | \</h1>
                 <h1 contenteditable="false">&nbsp;/ \</h1>
             </div>
@@ -45,10 +45,9 @@
                     class="bg-white p-5 rounded-md md:rounded-bl-none md:rounded-tl-md rounded-tl-none text-black"
                 >
                     <p
-                        class="text-sm font-bold"
-                        bind:textContent={saidStatement}
+                        class="text-sm"
                         contenteditable="false"
-                    ></p>
+                    >{saidStatement}</p>
                 </div>
                 {#if buttons}
                     <div class="flex justify-between py-3 gap-2">
