@@ -60,7 +60,7 @@
             </div>
         </div>
         <p class="text-sm fixed md:bottom-30 bottom-20">
-            Made by <a
+            Made with 💙 and ☕ by <a
                 class="text-blue-500 hover:underline"
                 target="_blank"
                 href="https://github.com/nabeelv7">Nabeel</a
